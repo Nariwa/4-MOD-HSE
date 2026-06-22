@@ -477,3 +477,57 @@ html {
   width: 100%;
   margin-top: 2vw;
 }
+
+#about-glavn {
+  font-size: 12vw;
+  font-family: 'kudry';
+  color: #000000;
+  margin-top: 5vw;
+  margin-left: 4vw;
+}
+
+#about-opisanie {
+  font-size: 1.5vw;
+  font-family: 'HelveticaNeue-Light';
+  color: #000000;
+  margin-top: 1vw;
+  margin-left: 4vw;
+}
+
+#zavitok1, #zavitok2 {
+  position: absolute;
+  width: 85%;
+  margin-top: -27vw;
+  margin-left: 14.8vw;
+  transition: transform 0.3s ease;
+}
+
+#papoch1:hover,
+#papoch2:hover {
+  animation: shake 0.4s ease-in-out infinite;
+}
+
+#zavitok1 {
+  animation: change1 0.5s infinite;
+}
+
+#zavitok2 {
+  animation: change2 0.5s infinite;
+}
+
+#papoch1, #papoch2 {
+  position: absolute;
+  width: 19vw;
+}
+
+#papoch1 {
+  margin-left: 26vw;
+  margin-top: 2vw;
+  animation: float1 4s ease-in-out infinite;
+}
+
+#papoch2 {
+  margin-left: 13vw;
+  margin-top: 7vw;
+  animation: float2 5.5s ease-in-out infinite;
+}
