@@ -6,11 +6,9 @@
     <title>Афиша PurrTatoo</title>
     <link rel="stylesheet" href="stylesheets/style.css" />
     <script src="javascripts/scripts.js" defer></script>
-    <script src="javascripts/index.js" defer></script>
   </head>
   <body>
     <div id="burger"></div>
-
     <nav class="mainMenu">
       <a class="mainMenuLink" href="about.html">О ПРОЕКТЕ</a>
       <a class="mainMenuLink  active" href="poster.html">АФИША</a>
@@ -25,9 +23,9 @@
 
 <section class="afisha">
   <div class="event-card">
-  <img class="event-card-image"src="./images/plakat1.svg"alt="">
+  <img class="event-card-image"src="./images/plakat1.svg" alt="">
   <div class="event-card-content">
-  <h2 class="event-card-title">
+  <h2 class="event-card-title event-title">
   Выставка японского тату-искусства
   </h2>
   <p class="event-card-description">
@@ -40,20 +38,20 @@
 на бумаге может стать плохой татуировкой <br>
 на кошке...</p>
   <div class="event-card-date">
-  <p id="afisha-data">27 мая</p>
-  <p id="afisha-time">19:00</p>
+  <p class="afisha-data">27 мая</p>
+  <p class="afisha-time">19:00</p>
   </div>
   <button class="event-card-button"> Забронировать место </button>
   </div>
   </div>
 </section>
-</body>
+
 
 <section class="afisha">
   <div class="event-card">
-  <img class="event-card-image"src="./images/plakat2.svg"alt="">
+  <img class="event-card-image"src="./images/plakat2.svg" alt="">
   <div class="event-card-content">
-  <h2 class="event-card-title">
+  <h2 class="event-card-title event-title">
 Эксперементальные методики в тату
   </h2>
   <p class="event-card-description">
@@ -66,20 +64,20 @@
 на бумаге может стать плохой татуировкой <br>
 на кошке...</p>
   <div class="event-card-date">
-  <p id="afisha-data">27 мая</p>
-  <p id="afisha-time">19:00</p>
+  <p class="afisha-data">27 мая</p>
+  <p class="afisha-time">19:00</p>
   </div>
   <button class="event-card-button"> Забронировать место </button>
   </div>
   </div>
 </section>
-</body>
+
 
 <section class="afisha">
   <div class="event-card">
-  <img class="event-card-image"src="./images/plakat3.svg"alt="">
+  <img class="event-card-image"src="./images/plakat3.svg" alt="">
   <div class="event-card-content">
-  <h2 class="event-card-title">
+  <h2 class="event-card-title event-title">
 Код как источник вдохновения
   </h2>
   <p class="event-card-description">
@@ -92,20 +90,20 @@
 на бумаге может стать плохой татуировкой <br>
 на кошке...</p>
   <div class="event-card-date">
-  <p id="afisha-data">27 мая</p>
-  <p id="afisha-time">19:00</p>
+  <p class="afisha-data">28 мая</p>
+  <p class="afisha-time">19:00</p>
   </div>
   <button class="event-card-button"> Забронировать место </button>
   </div>
   </div>
 </section>
-</body>
+
 
 <section class="afisha">
   <div class="event-card">
-  <img class="event-card-image"src="./images/plakat4.svg"alt="">
+  <img class="event-card-image"src="./images/plakat4.svg" alt="">
   <div class="event-card-content">
-  <h2 class="event-card-title">
+  <h2 class="event-card-title event-title">
 Поиск моделей и эскизов 
   </h2>
   <p class="event-card-description">
@@ -118,20 +116,20 @@
 на бумаге может стать плохой татуировкой <br>
 на кошке...</p>
   <div class="event-card-date">
-  <p id="afisha-data">27 мая</p>
-  <p id="afisha-time">19:00</p>
+  <p class="afisha-data">27 мая</p>
+  <p class="afisha-time">19:00</p>
   </div>
   <button class="event-card-button"> Забронировать место </button>
   </div>
   </div>
 </section>
-</body>
+
 
 <section class="afisha">
   <div class="event-card">
-  <img class="event-card-image"src="./images/plakat5.svg"alt="">
+  <img class="event-card-image"src="./images/plakat5.svg" alt="">
   <div class="event-card-content">
-  <h2 class="event-card-title">
+  <h2 class="event-card-title event-title">
 Выставка гжели
   </h2>
   <p class="event-card-description">
@@ -144,12 +142,50 @@
 на бумаге может стать плохой татуировкой <br>
 на кошке...</p>
   <div class="event-card-date">
-  <p id="afisha-data">27 мая</p>
-  <p id="afisha-time">19:00</p>
+  <p class="afisha-data">27 мая</p>
+  <p class="afisha-time">19:00</p>
   </div>
   <button class="event-card-button"> Забронировать место </button>
   </div>
   </div>
 </section>
 <img id="podafisha" src="./images/podval1.svg" alt="">
+
+<div id="bookingModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+
+    <div id="bookingStep1">
+      <h2 id="modalTitle">Бронирование места</h2>
+
+      <form id="bookingForm">
+        <input type="text" placeholder="Ваше имя" required>
+        <input type="text" placeholder="Email" required>
+        <input type="text" placeholder="Телефон" required>
+
+        <button type="submit">
+          Отправить заявку
+        </button>
+      </form>
+    </div>
+
+    <div id="bookingStep2" style="display:none;">
+      <img class="image-background" src="./images/forma2yzor.svg" alt="">
+      <h2>Все готово!</h2>
+      <p id="bookingEventTitle"></p>
+      <p id="bookingResultText"></p>
+      <p>Улица Пушкина дом Колотушкина</p>
+      <p class="metro-list">
+        <span class="metro-item">
+          <span class="metro-dot pink"></span>
+          Пушкинская
+        </span>
+        <span class="metro-item">
+          <span class="metro-dot green"></span>
+          Тверская
+        </span>
+      </p>
+    </div>
+  </div>
+</div>
 </body>

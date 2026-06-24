@@ -1,0 +1,227 @@
+@media screen and (min-width: 1px) and (max-width: 450px)  {
+
+    
+.e1e {
+  height: 217vw;
+}
+
+#logoMain {
+  margin: 101vw 15vw;
+}
+
+#yzorc1q, #yzorc2q {
+    width: 96vw;
+    margin-left: 4vw;
+}
+
+#lap1anim, #lap2anim, #lap3anim {
+    width: 30vw;
+    margin-top: 110vw;
+}
+
+#lap2anim {
+    margin-top: 150vw;
+    margin-left: 40vw;
+}
+
+#lap1anim {
+    margin-top: 180vw;
+    margin-left: 10vw;
+}
+
+.begstroka {
+  height: 10vw;
+}
+
+#strochka {
+    height: 10vw;
+}
+
+.e2e {
+    height: 217vw;
+}
+
+#aboutUs {
+    font-size: 12vw;
+    margin-left: 36vw;
+}
+
+#text2ekr {
+    margin-top: -5vw;
+    font-size: 2.5vw;
+    margin-left: 5vw;
+}
+
+#podrob {
+    width: 20vw;
+    margin-top: 23vw;
+    margin-left: -45vw;
+}
+
+.carti {
+    margin-top: 15vw;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+#cartoch1, #cartoch2, #cartoch3 {
+    width: 96vw;
+}
+
+#pod {
+    margin-top: 200vw;
+}
+
+#MasterMain {
+    font-size: 20vw;
+}
+
+#about-master-page {
+    font-size: 4vw;
+}
+
+.full-master-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.master-name {
+    font-size: 9vw;
+}
+
+.master-about, .master-exp {
+    font-size: 3vw;
+}
+
+.master-exp {
+    margin-top: 2vw;
+}
+
+.master-btn {
+  font-size: 4vw;
+  margin-top: 30vw;
+  padding: 1vw 1vw;
+}
+
+.master-photo {
+    width: 40vw;
+    margin-top: -41vw;
+    margin-left: 52vw;
+}
+
+.master-right img {
+    margin-left: 0vw;
+    height: 97vw;
+    margin-top: -4vw;
+}
+
+.catoch1stroch {
+    flex-direction: column;
+}
+
+#catoch1, #catoch2, #catoch3, #catoch4 {
+    width: 96vw;
+    margin-left: -1vw;
+    margin-top: 4vw;
+}
+
+.card-type {
+    font-size: 5vw;
+}
+
+.card-name {
+    font-size: 7vw;
+}
+
+#h1magaz {
+    font-size: 20vw;
+}
+
+.event-card-image {
+    width: 160%;
+}
+
+.event-card-content {
+    margin-left: 20vw;
+}
+
+.event-card-button {
+    margin-top: 11vw;
+    font-size: 4vw;
+}
+
+#afisha-data {
+    font-size: 5vw;
+}
+
+#afisha-time {
+    font-size: 5vw;
+}
+
+.event-card-description {
+    font-size: 2.5vw;
+}
+
+#afishGlavn-1text {
+    font-size: 20vw;
+}
+
+#afishGlavn-2text {
+    font-size: 3vw;
+}
+
+#about-glavn {
+    font-size: 20vw;
+}
+
+#about-opisanie {
+    font-size: 2.9vw;
+}
+
+#zavitok1, #zavitok2 {
+    margin-top: 60vw;
+}
+
+#papoch1, #papoch2 {
+    width: 45vw;
+}
+
+#papoch2 {
+    margin-top: 50vw;
+}
+
+#papoch1 {
+    margin-top: 70vw;
+    margin-left: 34vw;
+}
+
+.gallery {
+    height: 170vw;
+}
+
+.gallery-image.active {
+    width: 90vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
